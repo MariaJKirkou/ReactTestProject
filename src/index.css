@@ -1,0 +1,73 @@
+.card {
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.384);
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+.card .card-image {
+  width: 100%; /* Gör att bilden blir lika bred som kortet */
+  max-width: 250px; /* Maxbredd för att inte bli för stor */
+  height: 200px; /* Begränsa höjden så de inte blir för stora */
+  object-fit: cover; /* Se till att bilden fyller ut kortet utan att deformeras */
+  border-radius: 10px; /* Rundade hörn för en snyggare look */
+}
+
+.card-maria {
+  background-color: rgb(216, 162, 162);
+  width: 280px;  /* 🔥 Gör kortet bredare */
+  height: 460px; /* 🔥 Gör kortet högre */
+}
+
+.card-maria .card-image {
+  height: 350px; /* 🔥 Gör bilden avlång */
+  object-fit: cover;
+}
+.card-maria .card-rubric {
+  color: purple;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-maria .card-text {
+  color: rgb(146, 103, 146);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-gamer {
+  background-color: lightblue;
+  border-color: rgb(102, 102, 236);
+
+}
+.card-gamer .card-rubric {
+  color: rgb(21, 21, 158);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.card-gamer .card-text {
+  color: rgb(80, 55, 206);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-eating .card-rubric {
+  color: rgb(53, 131, 55);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-eating .card-text {
+  color: rgb(64, 217, 120);
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-eating {
+  background-color: lightgreen;
+  border-color: rgba(0, 128, 0, 0.774);
+}
+
